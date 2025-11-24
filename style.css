@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: url('.vscode/bg1.jpg') center/cover no-repeat;
+  background: url('bg1.jpg') center/cover no-repeat;
   height: 100vh;
   font-family: 'Poetsen One', sans-serif;
   color: #2b2b2b;
@@ -121,7 +121,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: url('.vscode/download\ \(1\).jpg') center/cover no-repeat;
+  background: url('download\ \(1\).jpg') center/cover no-repeat;
   height: 100vh;
   font-family: 'Poetsen One', sans-serif;
   color: #2b2b2b;
@@ -277,7 +277,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: url('.vscode/download.jpg') center/cover no-repeat;
+  background: url('download.jpg') center/cover no-repeat;
   height: 100vh;
   font-family: 'Poetsen One', sans-serif;
   color: #2b2b2b;
@@ -620,7 +620,7 @@ button:hover {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('.vscode/download.jpg'); /* ganti dengan gambar background kamu */
+    background-image: url('download.jpg'); /* ganti dengan gambar background kamu */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -708,3 +708,4 @@ button:hover {
     background-color: #ffffff;
     color: rgb(80, 72, 72);
 }
+
