@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poetsen+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('.vscode/bg1.jpg') center/cover no-repeat;
+  height: 100vh;
+  font-family: 'Poetsen One', sans-serif;
+  color: #2b2b2b;
+}
+
+/* Navigasi */
+.navbar {
+  background: rgba(50, 45, 40, 0.9);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1em;
+  transition: 0.3s;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #8c837b;
+  color: white;
+}
+
+/* Isi utama */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+/* Bingkai foto */
+.photo-frame {
+  width: 300px;
+  height: 340px;
+  background: white;
+  padding: 10px;
+  transform: rotate(-5deg);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.photo img {
+  width: 100%;
+  height: 180px;
+  background-color: lightgray; 
+}
+
+
+/* Teks */
+.text h1 {
+  font-family: 'irish grover';
+  font-size: 4em;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.text h2, .text h3 {
+  font-family: 'irish grover';
+  font-size: 2em;
+  color: #2b2b2b;
+  margin: 5px 0;
+}
+
+.text button {
+  margin-top: 20px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.text button:hover {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poetsen+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('.vscode/download\ \(1\).jpg') center/cover no-repeat;
+  height: 100vh;
+  font-family: 'Poetsen One', sans-serif;
+  color: #2b2b2b;
+}
+
+/* Navigasi */
+.navbar {
+  background: rgba(50, 45, 40, 0.9);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1em;
+  transition: 0.3s;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #8c837b;
+  color: white;
+}
+
+/* Isi utama */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+/* Bingkai foto */
+.photo-frame {
+  width: 200px;
+  height: 240px;
+  background: white;
+  padding: 10px;
+  transform: rotate(-5deg);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.photo-img {
+  width: 100%;
+  height: 180px;
+  background: lightgray;
+}
+
+/* About section */
+.about-section {
+  width: 400px;
+}
+
+.about-section h1 {
+  font-family: 'irish grover';
+  font-size: 2.5em;
+  color: #2b2b2b;
+  margin: 0 0 15px 0;
+}
+
+.text-box {
+  background: rgba(255,255,255,0.9);
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #2b2b2b;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.text-box p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.text-box {
+  background: rgba(255,255,255,0.9);
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #2b2b2b;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+
+.text-box p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+  padding-left: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+button {
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-section {
+    width: 80%;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poetsen+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('.vscode/download.jpg') center/cover no-repeat;
+  height: 100vh;
+  font-family: 'Poetsen One', sans-serif;
+  color: #2b2b2b;
+}
+
+/* Navigasi */
+.navbar {
+  background: rgba(50, 45, 40, 0.9);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1em;
+  transition: 0.3s;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #8c837b;
+  color: white;
+}
+
+/* Halaman Certificate */
+.certificate-container {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.certificate-container h1 {
+  font-family: 'irish grover' ;
+  font-size: 2.5em;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+
+/* Grid sertifikat */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cert-card {
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.cert-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}
+
+/* Tombol navigasi */
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Responsif */
+@media (max-width: 900px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 180px);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cert-grid {
+    grid-template-columns: repeat(1, 250px);
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li a.active {
+    background-color: #ff6347;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}
+
+.navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li a.active {
+    background-color: #ff6347;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('.vscode/download.jpg'); /* ganti dengan gambar background kamu */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.9);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li a.active {
+    background-color: #bfb7b0;
+    color: #ffffff;
+}
+
+main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: "Georgia", serif;
+    margin-bottom: 40px;
+}
+
+.contact-box {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    font-size: 1.2rem;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 15px;
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: bold;
+    width: 100px;
+}
+
+.button-box {
+    margin-top: 40px;
+}
+
+button {
+    background-color: #333;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: center;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: rgb(80, 72, 72);
+}
